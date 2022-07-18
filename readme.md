@@ -17,6 +17,7 @@
 4. 우선순위 기준으로 비교
 
 <결과>
+<img width="1137" alt="스크린샷 2022-07-18 오후 6 42 50" src="https://user-images.githubusercontent.com/82504981/179485763-8d4f47b9-1de7-448d-825e-89a21c2531f1.png">
 
 
 # 학습메모
@@ -36,4 +37,5 @@
 
 ### [node.js 기본]
 - 문자열 여러줄 입력받기 : [클릭](https://velog.io/@exploit017/%EB%B0%B1%EC%A4%80Node.js-Node.js-%EC%9E%85%EB%A0%A5-%EB%B0%9B%EA%B8%B0)
-- 
+- 배열 비교 방법 : [클릭](https://all-dev-kang.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%B0%B0%EC%97%B4-%EB%B9%84%EA%B5%90%ED%95%98%EB%8A%94-3%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95-%ED%98%95%EB%8B%98%EC%9D%98-%EC%86%94%EB%A3%A8%EC%85%98)
+- 배열 요소 포함 확인 : [클릭](https://ithub.tistory.com/297)
