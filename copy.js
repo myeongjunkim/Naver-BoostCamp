@@ -28,7 +28,15 @@ rl.on('close', () => {
 
 
 const getWinner = (arr1, arr2) => {
-    let pairList = getPair(arr1, arr2); let arr1Pair = pairList[0]; let arr2Pair = pairList[1];
+    let arr1Straight = checkStraight(arr1); let arr2Straight = checkStraight(arr2); 
+    let arr1Pair; let arr2Pair;
+    
+    if (arr1Straight == 0) {arr1Pair = checkPair(arr1);}
+    else  {arr1Pair = arr1Straight;}
+
+    if (arr2Straight == 0) {arr2Pair = checkPair(arr2);}
+    else  {arr2Pair = arr2Straight;}
+
     if (arr1Pair.maxpair == arr2Pair.maxpair){
         if (arr1Pair.num > arr2Pair.num) return 1;
         else if (arr1Pair.num < arr2Pair.num) return 2;
@@ -36,17 +44,6 @@ const getWinner = (arr1, arr2) => {
     }
     else if (arr1Pair.maxpair > arr2Pair.maxpair) return 1;
     else return 2;
-}
-
-
-const getPair = (arr1, arr2) => {
-    let arr1Straight = checkStraight(arr1); let arr2Straight = checkStraight(arr2); 
-    let arr1Pair; let arr2Pair;    
-    if (arr1Straight == 0) {arr1Pair = checkPair(arr1);}
-    else  {arr1Pair = arr1Straight;}
-    if (arr2Straight == 0) {arr2Pair = checkPair(arr2);}
-    else  {arr2Pair = arr2Straight;}
-    return [arr1Pair, arr2Pair];
 }
 
 const checkStraight = (arr) => {
