@@ -50,14 +50,21 @@ const getPair = (arr1, arr2) => {
 }
 
 const checkStraight = (arr) => {
-    let partArr = []; let continueArr = []; let intersection =[];
+    let lastNum = 0; let n=0
     for (let i=1; i<=9; i++){
-        continueArr = [...Array(5).keys()].map(key => key + i); intersection = arr.filter(x => continueArr.includes(x));
-        const set = new Set(intersection); const uniqueArr = [...set];
-        if (uniqueArr.length == 5) partArr = uniqueArr;
+        n = isStraight(arr, i)
+        if(n) lastNum = n;
     }
-    if (partArr.length != 5) return 0;
-    else return {"maxpair": 3.5, "num": partArr[4]};
+    if (lastNum != 0) return {"maxpair": 3.5, "num": lastNum};
+    else return 0;
+}
+
+const isStraight = (arr, i) => {
+    let continueArr = [...Array(5).keys()].map(key => key + i);
+    let intersection = arr.filter(x => continueArr.includes(x));
+    const set = new Set(intersection); const uniqueArr = [...set];
+    if (uniqueArr.length == 5) return uniqueArr[4];
+    else return 0
 }
 
 const checkPair= (arr) => {
