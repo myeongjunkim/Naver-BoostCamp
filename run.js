@@ -22,25 +22,20 @@ rl.on('close', () => {
     arr2 = input[1]
     arr2.sort(function(a,b){return a-b});
 
-    console.log(getWinner(arr1, arr2))
+    console.log(getWinner(arr1, arr2));
     process.exit();
 })
 
 
 const getWinner = (arr1, arr2) => {
-    // let arr1Straight = checkStraight(arr1); let arr2Straight = checkStraight(arr2); 
-    // let arr1Pair; let arr2Pair;
+    let arr1Straight = checkStraight(arr1); let arr2Straight = checkStraight(arr2); 
+    let arr1Pair; let arr2Pair;
     
-    // if (arr1Straight == 0) {arr1Pair = checkPair(arr1);}
-    // else  {arr1Pair = arr1Straight;}
+    if (arr1Straight == 0) {arr1Pair = checkPair(arr1);}
+    else  {arr1Pair = arr1Straight;}
 
-    // if (arr2Straight == 0) {arr2Pair = checkPair(arr2);}
-    // else  {arr2Pair = arr2Straight;}
-     
-    let arr1Pair = checkPair(arr1); let arr2Pair = checkPair(arr2); 
-
-    // console.log(arr1Pair.maxpair, arr1Pair.num);
-    // console.log(arr2Pair.maxpair, arr2Pair.num);
+    if (arr2Straight == 0) {arr2Pair = checkPair(arr2);}
+    else  {arr2Pair = arr2Straight;}
 
     if (arr1Pair.maxpair == arr2Pair.maxpair){
         if (arr1Pair.num > arr2Pair.num) return 1;
@@ -52,16 +47,13 @@ const getWinner = (arr1, arr2) => {
 }
 
 const checkStraight = (arr) => {
-    let partArr = [];
-    for (let i=0; i<=arr.length-5; i++){
-        console.log([...Array(5).keys()].map(key => key + i+1).toString());
-        console.log(arr.slice(i, i+5).toString());
-        if ([...Array(5).keys()].map(key => key + i+1).toString() == arr.slice(i, i+5).toString()) {
-            console.log()
-            partArr = arr.slice(i, i+5);
-        }
+    let partArr = []; let continueArr = []; let intersection =[];
+    for (let i=1; i<=9; i++){
+        continueArr = [...Array(5).keys()].map(key => key + i); intersection = arr.filter(x => continueArr.includes(x));
+        const set = new Set(intersection); const uniqueArr = [...set];
+        if (uniqueArr.length == 5) partArr = uniqueArr;
     }
-    if (partArr.length == 0) return 0;
+    if (partArr.length != 5) return 0;
     else return {"maxpair": 3.5, "num": partArr[4]};
 }
 
@@ -70,8 +62,7 @@ const checkPair= (arr) => {
     for(let i=0; i<arr.length; i++){
         let pair = arr.filter(item => item === arr[i]).length;
         if(pair >= maxpair && pair != 1){
-            maxpair = pair;
-            num = arr[i];
+            maxpair = pair; num = arr[i];
         }
     }
     return {"maxpair": maxpair, "num": num};
