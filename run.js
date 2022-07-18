@@ -29,7 +29,13 @@ rl.on('close', () => {
 })
 
 
-
+const getWinner = (arr1, arr2) => {
+    let arr1Pair = checkPair(arr1); 
+    let arr2Pair = checkPair(arr2);
+    if (arr1Pair.maxpair == arr2Pair.maxpair) return 0;
+    else if (arr1Pair.maxpair > arr2Pair.maxpair) return 1;
+    else return 2;
+}
 
 
 const checkPair= (arr) => {
