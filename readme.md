@@ -12,9 +12,11 @@
 - [x]  day1 의 js 파일 복사
 
 ### [쉘 스크립트]
-- [ ] cat 명령어 사용법
-- [ ] user 모드 사용률을 계산
+- [x] cat 명령어 사용법
+- [x] user 모드 사용량 체크
+- [ ] 쉠 스크립트 작성법 학습
 - [ ] 환경변수에 접근 할 수 있는 스크립트 명령어 체크
+- [ ] user 모드 사용율 계산
 - [ ] crontab 동작 방식을 확인
 
 # 학습 메모
@@ -41,6 +43,7 @@
 - Oh My zsh [참고자료](https://nolboo.kim/blog/2015/08/21/oh-my-zsh/)
 - homebrew 설치 [참고자료](https://whitepaek.tistory.com/3) [참고자료2](https://shanepark.tistory.com/45)
 - cpu 이용률 확인 [참고자료](https://www.hooni.net/xe/study/1747)
+- cat 사용법 [참고자료](https://almostgeneral.tistory.com/9)
 
 
 # 결과
@@ -83,5 +86,10 @@
    ### <oh my zsh 설치>
    <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179787553-a97edb5b-ecf0-47d1-a2a5-d762ff681b1f.png">
    
+   
+   ### <cat을 통해 cpu 사용량 확인>
+   - 두변째 열이 user cpu 사용량
+   <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179792776-90487e90-29d0-4fe7-8e31-c0e49b26149f.png">
+
    
 
