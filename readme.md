@@ -12,4 +12,5 @@
 # 학습 메모
 
 [가상머신 선택]
-- m1 mac 사용중이므로 기존 virtual machin 사용 불가 -> UTM 가상머신 사용 [참고 영상](https://www.youtube.com/watch?v=wOYy-kztc9s)
+- m1 mac 사용중이므로 기존 virtual machin 사용 불가 -> UTM 가상머신 사용
+   [참고 영상 1](https://www.youtube.com/watch?v=wOYy-kztc9s) [참고영상 2](https://www.youtube.com/watch?v=MVLbb1aMk24) [참고영상 3](https://www.youtube.com/watch?v=GjqeoC267FM)
