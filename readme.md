@@ -6,7 +6,7 @@
 - [x]  해당 계정으로 로그인 후 폴더 생성, 764 권한 변경을 통해 생성한 계정으로도 접근 권한 설정
 - [x]  가상머신 내에서 터미널 다루는 방법 습득 - 생성한 폴더의 권한 확인
 - [x]  가상머신 내 우분투의 날짜 셋팅 - 터미널 내에서 날짜 확인
-- [ ]  가상머신 내 node.js 설치
+- [x]  가상머신 내 node.js 설치
 - [ ]  day1 의 js 파일 복사
 
 # 학습 메모
@@ -22,6 +22,10 @@
 - 폴더 권한 변경 [참고 자료](https://velog.io/@nimok97/Ubuntu-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-%EB%B0%8F-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%83%9D%EC%84%B1-%ED%9B%84-%EA%B6%8C%ED%95%9C-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)
 
 - 다른 계정으로 로그인 [참고자료](https://reubwe.tistory.com/375)
+
+- node.js 설치 [참고자료](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_node.js_%EC%84%A4%EC%B9%98)
+
+
 
 # 결과
 - 스샷 첨부
@@ -51,4 +55,7 @@
    
    ### <날짜 설정>
    <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179726548-3049d08b-9ee2-438f-bd48-443ee75893ec.png">
+
+   ### <node.js 설치>
+   <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179728104-46118f57-7a5b-470e-85ae-e8c16ea352fe.png">
 
