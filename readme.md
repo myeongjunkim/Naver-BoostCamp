@@ -1,4 +1,6 @@
 # 나만의 체크포인트
+
+### [가상머신 리눅스]
 - [x]  m1 맥북에 맞는 가상머신 설치
 - [x]  가상환경 내에 리눅스 설치 - 방법 조사
 - [x]  로컬에서 가상환경내 우분투에 접근하는 방법 습득
@@ -9,16 +11,22 @@
 - [x]  가상머신 내 node.js 설치
 - [x]  day1 의 js 파일 복사
 
+### [쉘 스크립트]
+- [ ] cat 명령을 통해 진행 할 수 있는 것들 체크
+- [ ] user 모드 사용률을 계산
+- [ ] 환경변수에 접근 할 수 있는 스크립트 명령어 체크
+- [ ] 
+
 # 학습 메모
 
-[가상머신 선택]
+### [가상머신 선택]
 - m1 mac 사용중이므로 기존 virtual machin 사용 불가 -> UTM 가상머신 사용
    [참고 영상 1](https://www.youtube.com/watch?v=wOYy-kztc9s) [참고영상 2](https://www.youtube.com/watch?v=MVLbb1aMk24) [참고영상 3](https://www.youtube.com/watch?v=GjqeoC267FM)
 
    => UTM 가상 머신에서 부팅과정 번복 실패 -> 결국 해결 못함
 - Parallels 가상머신 사용 [참고영상](https://www.youtube.com/watch?v=EiO_CHfSn2s)
 
-[우분투 셋팅]
+### [우분투 셋팅]
 - 폴더 권한 변경 [참고 자료](https://velog.io/@nimok97/Ubuntu-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-%EB%B0%8F-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%83%9D%EC%84%B1-%ED%9B%84-%EA%B6%8C%ED%95%9C-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)
 
 - 다른 계정으로 로그인 [참고자료](https://reubwe.tistory.com/375)
@@ -26,6 +34,12 @@
 - 우분투 node.js 설치 [참고자료](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_node.js_%EC%84%A4%EC%B9%98)
 
 - server 간 파일 복사 [참고자료](https://psychoria.tistory.com/762)
+
+
+### [쉘 스크립트]
+
+- Oh My zsh [참고자료](https://nolboo.kim/blog/2015/08/21/oh-my-zsh/)
+
 
 # 결과
 - 스샷 첨부
