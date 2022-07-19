@@ -14,3 +14,7 @@
 [가상머신 선택]
 - m1 mac 사용중이므로 기존 virtual machin 사용 불가 -> UTM 가상머신 사용
    [참고 영상 1](https://www.youtube.com/watch?v=wOYy-kztc9s) [참고영상 2](https://www.youtube.com/watch?v=MVLbb1aMk24) [참고영상 3](https://www.youtube.com/watch?v=GjqeoC267FM)
+
+=> UTM 가상 머신에서 부팅과정 번복 실패 -> 결국 해결 못함
+
+- Parallels 가상머신 사용 [참고영상](https://www.youtube.com/watch?v=EiO_CHfSn2s)
