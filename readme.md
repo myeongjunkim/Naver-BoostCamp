@@ -47,7 +47,7 @@
 - homebrew 설치 [참고자료](https://whitepaek.tistory.com/3) [참고자료2](https://shanepark.tistory.com/45)
 - cpu 이용률 확인 [참고자료](https://www.hooni.net/xe/study/1747)
 - cat 사용법 [참고자료](https://almostgeneral.tistory.com/9) [참고자료](https://codechacha.com/ko/shell-script-add-minus-multi-division/)
-- 쉘스크립트 내의 변수는 항상 문자열이다!
+- 쉘스크립트 내의 변수는 항상 문자열이다! [기본 문법](https://twpower.github.io/131-simple-shell-script-syntax)
 - crontab [참고자료](https://anggeum.tistory.com/entry/%ED%81%AC%EB%A1%A0%ED%83%ADCrontab-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC) [참고자료 2](https://24hours-beginner.tistory.com/210)
 - 쉘스크립트 날짜 형식 [참고자료](https://codechacha.com/ko/shell-script-date-and-time/)
 
