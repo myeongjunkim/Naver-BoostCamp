@@ -7,7 +7,7 @@
 - [x]  가상머신 내에서 터미널 다루는 방법 습득 - 생성한 폴더의 권한 확인
 - [x]  가상머신 내 우분투의 날짜 셋팅 - 터미널 내에서 날짜 확인
 - [x]  가상머신 내 node.js 설치
-- [ ]  day1 의 js 파일 복사
+- [x]  day1 의 js 파일 복사
 
 # 학습 메모
 
@@ -23,9 +23,9 @@
 
 - 다른 계정으로 로그인 [참고자료](https://reubwe.tistory.com/375)
 
-- node.js 설치 [참고자료](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_node.js_%EC%84%A4%EC%B9%98)
+- 우분투 node.js 설치 [참고자료](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_node.js_%EC%84%A4%EC%B9%98)
 
-
+- server 간 파일 복사 [참고자료](https://psychoria.tistory.com/762)
 
 # 결과
 - 스샷 첨부
@@ -60,3 +60,5 @@
    <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179728104-46118f57-7a5b-470e-85ae-e8c16ea352fe.png">
 
    ### <day01 파일 복사>
+   <img width="400" alt="image" src="https://user-images.githubusercontent.com/82504981/179729257-9721a922-52d2-42ef-a99b-0c350a3c95e4.png">
+
