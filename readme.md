@@ -10,3 +10,6 @@
 - [ ]  day1 의 js 파일 복사
 
 # 학습 메모
+
+[가상머신 선택]
+- m1 mac 사용중이므로 기존 virtual machin 사용 불가 -> UTM 가상머신 사용 [참고 영상](https://www.youtube.com/watch?v=wOYy-kztc9s)
