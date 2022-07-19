@@ -59,3 +59,4 @@
    ### <node.js 설치>
    <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179728104-46118f57-7a5b-470e-85ae-e8c16ea352fe.png">
 
+   ### <day01 파일 복사>
