@@ -18,32 +18,37 @@
    => UTM 가상 머신에서 부팅과정 번복 실패 -> 결국 해결 못함
 - Parallels 가상머신 사용 [참고영상](https://www.youtube.com/watch?v=EiO_CHfSn2s)
 
-# 결과
+[우분투 셋팅]
+- 폴더 권한 변경 [참고 자료](https://velog.io/@nimok97/Ubuntu-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-%EB%B0%8F-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EC%83%9D%EC%84%B1-%ED%9B%84-%EA%B6%8C%ED%95%9C-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)
 
-   <리눅스 설치>
+- 다른 계정으로 로그인 [참고자료](https://reubwe.tistory.com/375)
+
+# 결과
+- 스샷 첨부
+   ### <리눅스 설치>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179714085-ba025e91-9c24-42d7-8cf4-ff90c5f41a02.png">
    
-   <ssh 패키지 설치 확인>
+   ### <ssh 패키지 설치 확인>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179717460-5fea3e1e-30ed-4497-b2d9-a310dc2bbf2b.png">
    
-   <ssh 서버 동작 확인>
+   ### <ssh 서버 동작 확인>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179718244-e6cba42e-1bf0-467d-8821-6f431e0228aa.png">
    
-   <ip 확인>
+   ### <ip 확인>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179718564-b0b1c4bd-7899-4a2b-a3bd-f11930320ea9.png">
    
-   <로컬에서 가상머신의 우분투 터미널에 접근한 모습>
+   ### <로컬에서 가상머신의 우분투 터미널에 접근한 모습>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179721709-f8fba57c-14ea-414d-9bc3-f550f4b3976b.png">
 
-   <가상머신 내 우분투에서 계정 생성>
+   ### <가상머신 내 우분투에서 계정 생성>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179723009-f70ced22-ed0c-4213-8a2e-85bf907e1e7f.png">
    
-   <새로운 유저로 로컬에서 로그인>
+   ### <새로운 유저로 로컬에서 로그인>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179723233-2dd42fdd-0e45-4bcb-bd9f-d678d6625df1.png">
 
-   <폴더 생성 및 권한 변경>
+   ### <폴더 생성 및 권한 변경>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179726078-c398dd95-e5ae-4795-ab58-b4d42326d5ab.png">
    
-   <날짜 설정>
+   ### <날짜 설정>
    <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179726548-3049d08b-9ee2-438f-bd48-443ee75893ec.png">
 
