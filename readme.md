@@ -14,10 +14,13 @@
 ### [쉘 스크립트]
 - [x] cat 명령어 사용법
 - [x] user 모드 사용량 체크
-- [ ] 쉠 스크립트 작성법 학습
-- [ ] 환경변수에 접근 할 수 있는 스크립트 명령어 체크
-- [ ] user 모드 사용율 계산
+- [x] 쉠 스크립트 작성법 학습
+- [x] user 모드 사용율 계산(split)
+- [x] 환경변수에 접근 할 수 있는 스크립트 명령어 체크
 - [ ] crontab 동작 방식을 확인
+- [ ] user cpu 사용량 늘리기 위한 방법 체크
+- [ ] 70퍼 연속 세번 넘는 경우 처리 방법 체크
+- [ ] 로그 날짜파일로 저장
 
 # 학습 메모
 
@@ -43,7 +46,10 @@
 - Oh My zsh [참고자료](https://nolboo.kim/blog/2015/08/21/oh-my-zsh/)
 - homebrew 설치 [참고자료](https://whitepaek.tistory.com/3) [참고자료2](https://shanepark.tistory.com/45)
 - cpu 이용률 확인 [참고자료](https://www.hooni.net/xe/study/1747)
-- cat 사용법 [참고자료](https://almostgeneral.tistory.com/9)
+- cat 사용법 [참고자료](https://almostgeneral.tistory.com/9) [참고자료](https://codechacha.com/ko/shell-script-add-minus-multi-division/)
+- 쉘스크립트 내의 변수는 항상 문자열이다!
+- crontab [참고자료](https://anggeum.tistory.com/entry/%ED%81%AC%EB%A1%A0%ED%83%ADCrontab-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC) [참고자료 2](https://24hours-beginner.tistory.com/210)
+- 쉘스크립트 날짜 형식 [참고자료](https://codechacha.com/ko/shell-script-date-and-time/)
 
 
 # 결과
@@ -88,8 +94,12 @@
    
    
    ### <cat을 통해 cpu 사용량 확인>
+   - 첫번째 열이 전체 cpu 사용량
    - 두변째 열이 user cpu 사용량
    <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179792776-90487e90-29d0-4fe7-8e31-c0e49b26149f.png">
+   
+   
+   
 
    
 
