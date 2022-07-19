@@ -12,10 +12,10 @@
 - [x]  day1 의 js 파일 복사
 
 ### [쉘 스크립트]
-- [ ] cat 명령을 통해 진행 할 수 있는 것들 체크
+- [ ] cat 명령어 사용법
 - [ ] user 모드 사용률을 계산
 - [ ] 환경변수에 접근 할 수 있는 스크립트 명령어 체크
-- [ ] 
+- [ ] crontab 동작 방식을 확인
 
 # 학습 메모
 
@@ -39,10 +39,12 @@
 ### [쉘 스크립트]
 
 - Oh My zsh [참고자료](https://nolboo.kim/blog/2015/08/21/oh-my-zsh/)
+- homebrew 설치 [참고자료](https://whitepaek.tistory.com/3) [참고자료2](https://shanepark.tistory.com/45)
+- cpu 이용률 확인 [참고자료](https://www.hooni.net/xe/study/1747)
 
 
 # 결과
-- 스샷 첨부
+- [우분투 셋팅]
    ### <리눅스 설치>
    <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/179714085-ba025e91-9c24-42d7-8cf4-ff90c5f41a02.png">
    
@@ -75,4 +77,11 @@
 
    ### <day01 파일 복사>
    <img width="400" alt="image" src="https://user-images.githubusercontent.com/82504981/179729257-9721a922-52d2-42ef-a99b-0c350a3c95e4.png">
+
+- [쉘 스크립트]
+
+   ### <oh my zsh 설치>
+   <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179787553-a97edb5b-ecf0-47d1-a2a5-d762ff681b1f.png">
+   
+   
 
