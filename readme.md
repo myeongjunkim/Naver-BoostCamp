@@ -25,11 +25,11 @@
 # 결과
 
 ### [키워드 검색 크롤링]
+
 - json 모양으로 데이터화
   <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179914480-213a5d4f-61d1-43e9-86f9-964a129d73e7.png">
 
 - 최종 출력
-
   <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179915787-96132358-30e6-4161-a48f-cd6059251bc6.png">
 
 
@@ -41,3 +41,4 @@
 
 - axios, cheerio 사용법 [참고자료](https://www.youtube.com/watch?v=xbehh8lWy_A)
 - javascript forEach [참고자료](https://dydals5678.tistory.com/66)
+- import vs require [참고자료](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-require-%E2%9A%94%EF%B8%8F-import-CommonJs%EC%99%80-ES6-%EC%B0%A8%EC%9D%B4-1)
