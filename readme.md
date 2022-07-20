@@ -2,8 +2,8 @@
 
 ## [키워드 검색 크롤링]
 
-- [ ] node.js 개발환경 settings
-- [ ] 크롤링 모듈 검색, 선택
+- [x] node.js 개발환경 settings
+- [x] 크롤링 모듈 검색, 선택
 - [ ] 요청 url과 검색 키워드를 input 으로 받고, 결과 페이지 html을 return 하는 함수 작성
 - [ ] html에서 원해는 태그를 가져올 수 있는 모듈 찾기
 - [ ] 제목, 링크, 미리보기의 value 값을 가져와서 결과로 출력
@@ -23,3 +23,6 @@
 
 # 학습 메모
 
+## [키워드 검색 크롤링]
+
+- axios, cheerio 사용법 [참고자료](https://www.youtube.com/watch?v=xbehh8lWy_A)
