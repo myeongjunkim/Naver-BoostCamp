@@ -27,9 +27,11 @@
 ### [키워드 검색 크롤링]
 
 - json 모양으로 데이터화
+
   <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179914480-213a5d4f-61d1-43e9-86f9-964a129d73e7.png">
 
 - 최종 출력
+
   <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179915787-96132358-30e6-4161-a48f-cd6059251bc6.png">
 
 
