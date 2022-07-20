@@ -8,8 +8,8 @@
 - [x] html에서 원해는 태그를 가져올 수 있는 모듈 찾기
 - [x] html을 파싱하여 원하는 태그를 데이터화 하는 함수 작성
 - [x] 제목, 링크, 미리보기의 value 값을 가져와서 결과로 출력
-- [ ] async, await // promise, then 학습
-- [ ] 해당 부분 모듈화
+- [x] async, await // promise, then 학습
+- [x] 해당 부분 모듈화
 
 ### [검색 프로그램]
 
