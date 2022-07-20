@@ -13,9 +13,9 @@
 
 ### [검색 프로그램]
 
-- [ ] LRU 캐시 동작 학습
-- [ ] 키워드 개수와 키워드별 데이터 개수 input으로 받는 LRU 캐쉬 객체 껍데기 생성
-- [ ] 캐시에서 get 할 때마다 hit가 되면 hitCount를 증가 기능 구현
+- [x] LRU 캐시 동작 학습
+- [x] 키워드 개수와 키워드별 데이터 개수 input으로 받는 LRU 캐쉬 객체 껍데기 생성
+- [x] 캐시에서 get 할 때마다 hit가 되면 hitCount를 증가 기능 구현
 - [ ] 캐시에 set할 때는 이전에 동일한 키가 있으면 업데이트 하도록 구현
 - [ ] 키가 없으면 LRU 캐시에서 가장 오래전에 검색한 것을 지우고 새로 추가 하도록 set 구현
 - [ ] LRU 캐시를 저장된 단어인지 우선 확인하고, 있을 경우는 저장된 내용을 이용해서 표시하도록 검색 크롤링 개선(캐쉬 데이터이면 표시 필요)
@@ -46,3 +46,4 @@
 - import vs require [참고자료](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-require-%E2%9A%94%EF%B8%8F-import-CommonJs%EC%99%80-ES6-%EC%B0%A8%EC%9D%B4-1)
 - javascript 객체 선언 [참고자료](https://victorydntmd.tistory.com/51)
 - javascript includes [참고자료](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- javascript splice [참고자료](https://hianna.tistory.com/396)
