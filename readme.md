@@ -45,3 +45,4 @@
 - javascript forEach [참고자료](https://dydals5678.tistory.com/66)
 - import vs require [참고자료](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-require-%E2%9A%94%EF%B8%8F-import-CommonJs%EC%99%80-ES6-%EC%B0%A8%EC%9D%B4-1)
 - javascript 객체 선언 [참고자료](https://victorydntmd.tistory.com/51)
+- javascript includes [참고자료](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
