@@ -41,3 +41,5 @@ const searchMain = async(keyword) => {
 }
 
 await searchMain("apple");
+await searchMain("naver");
+await searchMain("$cache");
