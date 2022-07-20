@@ -23,6 +23,8 @@ const searchMain = async(keyword) => {
 
     } else {
         let getDataSet = await LRUcache.get(keyword);
+       
+
         if (getDataSet == 0){
             let dataSet = await LRUcache.set(keyword);
             printDataSet(dataSet);
@@ -36,7 +38,9 @@ const searchMain = async(keyword) => {
     
 }
 
-// 입력 문제
+
+
+// 입력 문제를 해결하지 못해 반복하여 키워드 검색
 
 await searchMain("apple");
 await searchMain("naver");
@@ -52,3 +56,13 @@ await searchMain("쿠팡");
 
 
 await searchMain("$cache");
+
+
+
+
+// get 기능 구현
+// console.log(await LRUcache.get("쿠팡"));
+
+// set 기능 구현
+// await LRUcache.set("배달의 민족");
+// await searchMain("$cache");

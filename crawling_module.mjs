@@ -2,13 +2,6 @@
 import axios from "axios";
 import cheerio from "cheerio";
 
-// html 가져오기
-// const axios = require('axios');
-
-// 파싱하기
-// const cheerio = require('cheerio');
-
-
 const getHTML = async(keyword) => {
     try{ 
         return await axios.get("https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=" + encodeURI(keyword));
