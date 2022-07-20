@@ -17,7 +17,25 @@ const cache = (maxList,maxDataLen) => {
             return 0;
         }
     }
-    
+    this.set = async(keyword) => {
+
+        let newDataList = await parsing(keyword);
+        if (newDataList.length > maxDataLen){
+            newDataList.length = maxDataLen;
+            console.log("데이터 최대개수 초과");
+        }
+
+        let dataSet = {
+            keyword : newDataList,
+            "hitCount" : 1
+        }
+        if (this.dataList.length == maxList){
+            this.dataList.splice(0,1);   
+        }
+        this.dataList.push(dataSet);
+
+        return dataSet;
+    }
 }
 
 const isKeyword = async(dataList, keyword) => {
