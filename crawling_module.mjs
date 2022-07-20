@@ -41,18 +41,8 @@ const parsing = async(keyword) => {
     return dataList;
 }
 
-const printResult = async(keyword) => {
-    parsing(keyword).then((dataList) => {
-        dataList.forEach((data, idx) => {
-            console.log("\n\n");
-            console.log("결과"+(idx+1)+".제목 : " + data.title + "\n");
-            console.log("결과"+(idx+1)+".링크 : " + data.url+ "\n");   
-            console.log("결과"+(idx+1)+".미리보기 : " + data.content+ "\n");
-            console.log("\n");   
-        });
-    });
-}
 
-export { parsing, printResult };
+
+export { parsing };
 
 
