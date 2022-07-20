@@ -53,3 +53,4 @@
 - javascript 객체 선언 [참고자료](https://victorydntmd.tistory.com/51)
 - javascript includes [참고자료](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - javascript splice [참고자료](https://hianna.tistory.com/396)
+- javascript async await in loop [참고자료](https://blog.woolta.com/categories/3/posts/138)
