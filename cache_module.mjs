@@ -53,21 +53,21 @@ const isKeyword = async(cacheList, keyword) => {
 export { Cache };
 
 
-
-// let dataSet = {
-//     "keyword" : 'keyword',
-//     "dataList" : [ // dataList
-//         {
-//             "title" : "title",
-//             "url" : "url",
-//             "contetn" : "content"
-//         },
-//         {
-//             "title" : "title",
-//             "url" : "url",
-//             "contetn" : "content"
-//         },
-//     ],
-//     "hitCount" : 0
-// }
+// 데이터 구조
+let dataSet = {
+    "keyword" : 'keyword',
+    "dataList" : [ // dataList
+        {
+            "title" : "title",
+            "url" : "url",
+            "contetn" : "content"
+        },
+        {
+            "title" : "title",
+            "url" : "url",
+            "contetn" : "content"
+        },
+    ],
+    "hitCount" : 0
+}
 
