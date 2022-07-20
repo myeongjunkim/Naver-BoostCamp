@@ -1,6 +1,4 @@
 import { Cache } from "./cache_module.mjs";
-import { parsing } from "./crawling_module.mjs";
-
 
 const printDataSet = (dataSet) => {
     dataSet.dataList.forEach((data, idx) => {
@@ -11,6 +9,7 @@ const printDataSet = (dataSet) => {
     });
 
 }
+
 
 let LRUcache = new Cache(5, 10);
 
@@ -40,10 +39,6 @@ const searchMain = async(keyword) => {
 }
 
 
-//////////////////////////////////////////////////////////
-//////////////////체크 포인트 확인////////////////////////////
-//////////////////////////////////////////////////////////
-
 
 // 입력 문제를 해결하지 못해 반복하여 키워드 검색
 
@@ -64,14 +59,10 @@ await searchMain("$cache");
 
 
 
-// parsing 기능구현
-// console.log(await parsing("kakao"));
 
-// 
-// get 기능 구현 (위 searchMain 함수들 주석처리 하지 않은 채 주석 해제)
+// get 기능 구현
 // console.log(await LRUcache.get("쿠팡"));
 
-// 
-// set 기능 구현 (위 searchMain 함수들 주석처리 하지 않은 채 주석 해제)
+// set 기능 구현
 // await LRUcache.set("배달의 민족");
 // await searchMain("$cache");

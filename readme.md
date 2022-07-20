@@ -32,17 +32,42 @@
 
 ### [키워드 검색 크롤링]
 
-- json 모양으로 데이터화
+  - json 모양으로 데이터화
 
-  <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179914480-213a5d4f-61d1-43e9-86f9-964a129d73e7.png">
+  <img width="350" alt="image" src="https://user-images.githubusercontent.com/82504981/179914480-213a5d4f-61d1-43e9-86f9-964a129d73e7.png">
 
-- 최종 출력
+  - 최종 출력
 
-  <img width="300" alt="image" src="https://user-images.githubusercontent.com/82504981/179915787-96132358-30e6-4161-a48f-cd6059251bc6.png">
+  <img width="350" alt="image" src="https://user-images.githubusercontent.com/82504981/179915787-96132358-30e6-4161-a48f-cd6059251bc6.png">
+
+  
+  
+### [검색 프로그램]
+  
+  - 데이터 구조
+  
+  <img width="250" alt="image" src="https://user-images.githubusercontent.com/82504981/180055850-320db040-9e06-4878-b491-527bd2cc2151.png">
+
+  
+  - parse 기능 구현 check
+  
+  <img width="350" alt="image" src="https://user-images.githubusercontent.com/82504981/180057266-ad3c4266-b08e-4eca-af90-bbcc82e3ea3c.png"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/180058044-fa5e8987-782b-4fdf-b947-f0992fafa2b5.png">
+
+  
+  - get 기능 구현 check
+  
+  <img width="350" alt="image" src="https://user-images.githubusercontent.com/82504981/180057648-05f85e97-37ea-44aa-9b26-240e0b9f9014.png"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/180058183-c6d5c909-fe9c-4aa2-b948-900f71d3bd70.png">
 
 
 
+  - set 기능 구현(set 전후 비교)
+  
+  <img width="350" alt="image" src="https://user-images.githubusercontent.com/82504981/180057848-f7b5b98c-46d3-442b-8d63-f74740167a27.png"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/82504981/180058446-90e871b2-c836-4dee-a9ed-4872a9af16cd.png">
+  
 
+
+  
+  
 # 학습 메모
 
 ### [키워드 검색 크롤링]
