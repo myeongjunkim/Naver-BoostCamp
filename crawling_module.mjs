@@ -21,8 +21,8 @@ const getHTML = async(keyword) => {
 const parsing = async(keyword) => {
     const html = await getHTML(keyword);
     const $ = cheerio.load(html.data);
-    const $searchList = $(".bx .total_wrap");
-
+    const $searchList = $(".api_subject_bx.type_noline .bx");
+    // console.log($searchList.length);
     let dataList = [];
     let data = {};
     $searchList.each((i, bx) =>{

@@ -5,10 +5,12 @@ import { parsing } from "./crawling_module.mjs";
 // main idea -> 캐시에는 오래된 순서대로 데이터 정렬(0번 인덱스에 가장 오래된 데이터)
 let Cache = function(maxList, maxDataLen) {
     this.cacheList = [];
-    this.get = (keyword) => {
-        let index = isKeyword(this.cacheList, keyword)
+    this.get = async(keyword) => {
+        let index = await isKeyword(this.cacheList, keyword)
+        // console.log(index); 
+        // index == -1 : set 해야되는 상황
         if(index>=0){   //캐시 내부에 이미 요소가 있는 경우
-            let targetDataSet = cacheList[index];
+            let targetDataSet = this.cacheList[index];
             targetDataSet.hitCount++;
             this.cacheList.splice(index,1);
             this.cacheList.push(targetDataSet); // 최신화
@@ -20,7 +22,6 @@ let Cache = function(maxList, maxDataLen) {
     this.set = async(keyword) => {
 
         let newDataList =  await parsing(keyword);
-        // console.log(newDataList);
         if (newDataList.length > maxDataLen){
             newDataList.length = maxDataLen;
             console.log("데이터리스트 최대개수 초과");
@@ -40,56 +41,17 @@ let Cache = function(maxList, maxDataLen) {
     }
 }
 
-const isKeyword = (cacheList, keyword) => {
-    cacheList.forEach((dataSet, i) =>{
-        if(dataSet.keyword == keyword) return i;
-    })
+const isKeyword = async(cacheList, keyword) => {
+    
+    //  반복문 비동기처리
+    for (const [index, dataSet] of cacheList.entries()) {
+        if(await dataSet.keyword === keyword) return index;
+    }
     return -1;
 }
 
-
 export { Cache };
 
-
-// const printDataSet = (dataSet) => {
-//     dataSet.dataList.forEach((data, idx) => {
-//         console.log("\n\n");
-//         console.log("결과"+(idx+1)+".제목 : " + data.title + "\n");
-//         console.log("결과"+(idx+1)+".링크 : " + data.url+ "\n");   
-//         console.log("결과"+(idx+1)+".미리보기 : " + data.content+ "\n");
-//         console.log("\n");   
-//     });
-
-// }
-
-
-
-
-
-
-// let LRUcache = new Cache(5, 10);
-
-// const searchMain = async(keyword) => {
-
-//     if(keyword == "$cache"){
-//         LRUcache.cacheList.forEach((dataSet)=>{
-//             process.stdout.write(dataSet.keyword + "(" + dataSet.hitCount + ") ");
-//         });
-//         console.log("\n\n");
-
-//     } else if (LRUcache.get(keyword) == 0){
-//         let dataSet = await LRUcache.set(keyword);
-//         // console.log(dataSet);
-//         printDataSet(dataSet);
-        
-//     } else {
-//         console.log("(본 검색 결과는 캐시에 저장된 내용을 표시합니다.)");
-//         let dataSet = LRUcache.get(keyword);
-//         printDataSet(dataSet);
-//     }
-// }
-
-// await searchMain("apple");
 
 
 // let dataSet = {
