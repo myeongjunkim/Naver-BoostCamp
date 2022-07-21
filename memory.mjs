@@ -6,6 +6,14 @@ class Stack {
         this.size = 0;
         this.pointer = 0;
     };
+
+    push = (data) => {
+        this.arr.push({
+            "heapAdress" : data
+        })
+        this.pointer++;
+        return this.pointer;
+    }
 }
 
 
@@ -18,6 +26,7 @@ class Memmory {
 
     init = (stackSize, heapSize) => {
         this.baseAdress = 0;
+        this.nextAdress = 1;
         this.typeList = {};
         this.stack = new Stack(stackSize);
         this.heap = {};
@@ -25,6 +34,8 @@ class Memmory {
         this.maxHeapSize = heapSize;
         return this.baseAdress;
     }
+
+    
 
 
     setSize = (type, length) => {
@@ -37,7 +48,20 @@ class Memmory {
 
     malloc = (type, count) => {
         if(type in Object.keys(this.typeList)) {
-            
+            const typeSize = this.typeList[type]
+            const firstAdress = this.nextAdress;
+            for(let i=0; i<count; i++){
+                if (typeSize < 8) {
+                    this.heap[this.nextAdress++] = {"size" : 8};
+                    this.heapSize += 8;
+                }
+                else {
+                    this.heap[this.nextAdress++] = {"size" : typeSize};
+                    this.heapSize += typeSize;
+                }
+            }
+            return this.stack.push(firstAdress);
+
         } else throw new Error("등록되지 않은 자료형입니다. setSize 메서드를 통해 자료형을 등록해주세요");
     }
 
@@ -90,3 +114,5 @@ class Memmory {
 
 
 }
+
+export default Memmory;
