@@ -27,6 +27,17 @@ class Memmory {
     }
 
 
+    setSize = (type, length) => {
+
+        if(type in Object.keys(this.typeList)) throw new Error("이미 존재하는 자료형입니다.");
+        else if([1,2,4,8,16,32].includes(length)) this.typeList[type] = length;
+        else throw new Error("자료형의 크기는 1,2,4,8,16,32 중 하나만 가능합니다.");
+    }
+
+
+   
+
+
 
 
 }
