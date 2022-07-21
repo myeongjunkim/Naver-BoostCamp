@@ -21,8 +21,10 @@
 # 학습 메모
 - 메모리 구조 이미지
   ![image](https://user-images.githubusercontent.com/82504981/180173684-ea32c9db-d16a-4593-accb-54a9bd33e560.png)
+  ![image](https://user-images.githubusercontent.com/82504981/180231050-1501d6bc-45a2-4aa7-a068-2c8b3a184195.png)
+  
 - javascript class [관련자료](https://www.youtube.com/watch?v=OpvtD7ELMQo)
 - javascrip 동작원리 [관련자료](https://www.youtube.com/watch?v=v67LloZ1ieI&t=1s)
 - javascrip 실행컨텍스트 [관련자료](https://www.youtube.com/watch?v=EWfujNzSUmw)
 - javascrip Int16Array [관련자료](https://developer.mozilla.org/ko/docs/Web/JavaScript/Typed_arrays)
-
+- javascrip 메모리 구조 [관련자료](https://velog.io/@stella6767/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EC%B4%88-1)
