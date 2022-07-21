@@ -28,3 +28,4 @@
 - javascrip 실행컨텍스트 [관련자료](https://www.youtube.com/watch?v=EWfujNzSUmw)
 - javascrip Int16Array [관련자료](https://developer.mozilla.org/ko/docs/Web/JavaScript/Typed_arrays)
 - javascrip 메모리 구조 [관련자료](https://velog.io/@stella6767/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EC%B4%88-1)
+- javascript Arraybuffer [관련자료](https://velog.io/@longroadhome/%EB%AA%A8%EB%8D%98JS-%EC%8B%AC%ED%99%94-%EB%B0%94%EC%9D%B4%EB%84%88%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80-%ED%8C%8C%EC%9D%BC)
