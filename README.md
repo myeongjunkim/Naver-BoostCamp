@@ -1,5 +1,7 @@
 # Naver-BoostCamp
 
+![image](https://user-images.githubusercontent.com/82504981/180423934-f3dee185-37ca-429f-be5d-04b95a45fc23.png)
+
 |Day|학습 주제|설계 & 구현|학습 정리|
 |------|-----------|---------|------|
 |Day01|개발환경|[설계 & 구현](https://gist.github.com/myeongjunkim/44cbdfab9bffe581c4c3fa898358d602)|[Notion](https://grandiose-behavior-af2.notion.site/Day01-29f524b764374d50b77fd16d24967321)|
