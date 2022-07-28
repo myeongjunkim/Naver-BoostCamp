@@ -9,4 +9,7 @@
 |Day03|크롤링 데이터와 LRU|[설계 & 구현](https://gist.github.com/myeongjunkim/6f5843e93dd82881453f7a35f7da55d8)|[Notion](https://grandiose-behavior-af2.notion.site/Day03-c21c5c5f7b2c44d7a412e509ed5355f4)|
 |Day04|메모리 모델|[설계 & 구현](https://gist.github.com/myeongjunkim/4e238adae4d51d2c5fdcecc458d3d867)|[Notion](https://grandiose-behavior-af2.notion.site/Day04-055aa207ddd646198817cb0564bd6c42)|
 |Day05|주간 회고|시간을 달리는 부캠 진행|[Notion](https://grandiose-behavior-af2.notion.site/Day05-b95255b5d5d546399f5c1d23d1009c27)|
-|Day04|XML parser|[설계 & 구현](https://gist.github.com/myeongjunkim/936315ad542396e6432d634011459e03)|[Notion](https://grandiose-behavior-af2.notion.site/Day06-2e8aa62df2da4488a3dd5beb5291b394)|
+|Day06|XML parser|[설계 & 구현](https://gist.github.com/myeongjunkim/936315ad542396e6432d634011459e03)|[Notion](https://grandiose-behavior-af2.notion.site/Day06-2e8aa62df2da4488a3dd5beb5291b394)|
+|Day07|Chess game|[설계 & 구현](https://gist.github.com/myeongjunkim/e7e771070e483270911dc182990b4dc9)|[Notion]()|
+|Day08|함수형 프로그래밍|[설계 & 구현]()|[Notion]()|
+|Day08|작업 스케줄링|[설계 & 구현]()|[Notion]()|
