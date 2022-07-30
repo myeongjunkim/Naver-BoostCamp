@@ -12,4 +12,5 @@
 |Day06|XML parser|[설계 & 구현](https://gist.github.com/myeongjunkim/936315ad542396e6432d634011459e03)|[Notion](https://grandiose-behavior-af2.notion.site/Day06-2e8aa62df2da4488a3dd5beb5291b394)|
 |Day07|Chess game|[설계 & 구현](https://gist.github.com/myeongjunkim/e7e771070e483270911dc182990b4dc9)|[Notion]()|
 |Day08|함수형 프로그래밍|[설계 & 구현]()|[Notion]()|
-|Day08|작업 스케줄링|[설계 & 구현]()|[Notion]()|
+|Day09|작업 스케줄링|[설계 & 구현]()|[Notion]()|
+|Day10|주간 회고|[설계 & 구현]()|[Notion]()|
